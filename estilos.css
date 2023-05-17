@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: deepskyblue !important;
+    
+}
+.logo{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white !important;
+}
+
+.nav-link {
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white !important;
+    
+}
+
+nav a:hover {
+    color: black !important;
+}
+
+.dropdown-item{
+    text-transform: capitalize;
+}
+
+.encabezado{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.img-1{
+    object-fit: cover;
+    height: 500px;
+    width: 1100px;
+    background-position: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: blue;
+   
+} h1{
+    background-color: deepskyblue;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }}
+
+.tituloh1{
+    overflow: hidden;
+
+    }
+.card {
+        padding: 20px;
+        border: none;
+        align-items: center;
+        text-align: center;
+    }
+
+.card-title{
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform:uppercase;
+        font-weight: bold;
+        color: white;
+}
+.card-text{
+    text-transform: capitalize;
+    color: white;
+}
+
+.card-img-top{
+    width: 600px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.card-img-top:hover 
+    {filter: sepia(100%);}
+
+.fondo{
+    padding: 10px;
+    background-color:deepskyblue;
+    display: flex;
+}
+.btn:hover{
+    transform: scale(1.05);
+    transition: all 0.9s;}
+
+.img-calingasta{
+    object-fit: cover;
+    height: 500px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.img-calingasta:hover{
+
+    transform: scale(1.05);
+    transition: all 0.9s;
+    border-radius:50%;
+    filter: grayscale(60%);
+}
+
+.p-calingasta{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+
+}
+.p-calingasta2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: justify;
+    text-align: center;
+    padding: 25px;
+    
+
+}
+
+.fondocalingasta{
+    background-color: white;
+    padding: 0%;
+}
+.titulocalingasta{
+    width: 100%;
+    height: 45px;
+    
+}
+
+.p-dotacion{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-transform: capitalize;
+        color:black;
+        text-align: left;
+        font-weight: bold;
+    }
+.p-domicilio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        text-transform: capitalize;
+        color:black;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .img-contacto {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+    }
+
+    .jumbotron{
+        width: 100%;
+        height: 400px;
+    }
+    .titulo-1{
+        width: 100%;
+        height: 80px;
+        border-radius: 50px;
+        background-color: deepskyblue;
+    }
+   .lista{
+    list-style:inside;
+   }
+   .lista li{
+    color: black;
+    text-transform: capitalize;
+    /*font-family: 'Climate Crisis', cursive;*/
+    font-size: 20px;
+    /*font-family: 'Oswald', sans-serif*/;
+    font-family: 'Rajdhani', sans-serif; ;
+   }
+   .encabezado2{
+    background-image: url(./imagen/fondolujandecuyo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;}
+
+
+    /*index*/
+  .p1{
+    color: black;
+    text-align:center;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .p2{
+    color: black;
+    text-align:center;
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    
+}
+
+    .btn-index{
+        width: 200px;
+        height: 50px;
+        background-color: deepskyblue;
+        color: white;
+        text-align: center;}
+    
+    .btn-index:hover{
+        transform: scale(1.05);
+        transition: all 0.9s;
+        }
+           
+    .btn1 {
+        margin-left: 45%;
+    
+    }
+    .btn1:hover{
+        transform: scale(1.05);
+        transition: all 0.9s;}
+    
+    .encabezado3{
+            background-color: white;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 110vh;
+            width: 100%;
+        }
+
+    .fondocuartelv{
+            background-color: white;
+            padding: 0%;
+    }
+
+    .video{
+        height: 500px;
+        width: 50%;
+        border-radius: 20px;
+    
+    }
+    .video:hover{
+
+        transform: scale(1.02);
+        transition: all 0.9s;
+        border-radius:1%;
+        filter: grayscale(60%);
+    }
+    .media{
+        background-color: deepskyblue;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 30px;
+    }
+    h4{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 35px;
+        color: white;
+        text-transform:uppercase;
+        text-decoration: underline;
+
+    }
+    .p-cardd{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 25px;
+        color: white;
+        
+    
+    }
+    .header-fondo3{
+        padding: 30px 0px 20px 0px;
+        
+        
+    }
+    .h2-psu{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 30px;
+        color:blue !important;
+        font-weight: bold;
+        text-decoration: underline;
+        
+    }
+    .p-psu{
+
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 30px;
+        color:black !important;
+        font-weight: bold;
+
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 800px;
+        object-fit: cover;
+    
+    }
+    .imgpromocion{
+        width: 50vh;
+        height: 200px;
+        padding: 20px;
+        
+        
+    }
+    .footer1{
+        background-color: deepskyblue;
+        height: 90px;
+        width: 100%;
+        
+    }
+    .img-contacto {
+        width: 100%;
+        height: 100px;
+       object-fit: cover;}
+
+    .fondo-section{
+        background-color: deepskyblue;
+        width: 100%;
+        height: 200px;
+    }
+
+    .header-fondo4{
+        background-color: white;
+        width: 100%;
+        height: 10%;
+        
+    }
+
+   .h1-anses{
+    background-color: white;
+    color: deepskyblue;
+    text-transform: uppercase;
+    text-align: center;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+   
+
+    
+  
+   
+   
